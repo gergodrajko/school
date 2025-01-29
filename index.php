@@ -156,6 +156,7 @@ function insertRandomData($conn) {
     echo "Véletlenszerű adatok beszúrva<br>";
 //modositas
 //sd
+//sziuskam
 }
 
 ?>
