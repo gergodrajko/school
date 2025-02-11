@@ -148,7 +148,7 @@ function insertRandomData($conn) {
                 $mark = rand(1, 5);
                 $date = date('Y-m-d', strtotime('-' . rand(0, 365) . ' days'));
                 $sql = "INSERT INTO marks (student_id, subject_id, mark, date) VALUES ($studentId, $subjectId, $mark, '$date')";
-                $conn->query($sql);
+                $conn->quersy($sql);
             }
         }
     }
@@ -157,6 +157,7 @@ function insertRandomData($conn) {
 //modositas
 //sd
 //sziuskam
+//aztamindentsegit te kis 
 }
 
 ?>
